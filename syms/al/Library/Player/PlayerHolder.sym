@@ -1,7 +1,0 @@
-@smo:100,101,110,120
-
-_ZNK2al12PlayerHolder12tryGetPlayerEi
-
-@smo:130
-
-_ZNK2al12PlayerHolder12tryGetPlayerEi = 0x00713050

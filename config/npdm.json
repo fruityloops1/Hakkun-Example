@@ -9,9 +9,8 @@
     "version": "0x00000000",
     "is_retail": true,
     "pool_partition": 0,
-    "is_64_bit": true,
-    "address_space_type": 3,
-    "system_resource_size": "0x0",
+    "is_64_bit": false,
+    "address_space_type": 2,
     "filesystem_access": {
         "permissions": "0xffffffffffffffff"
     },
@@ -28,9 +27,7 @@
         "bsd:u",
         "bsdcfg",
         "caps:su",
-        "caps:u",
         "csrng",
-        "ectx:aw",
         "friend:u",
         "fsp-srv",
         "hid",
@@ -47,10 +44,7 @@
         "nfc:mf:u",
         "nfc:user",
         "nfp:user",
-        "ngct:u",
         "nifm:u",
-        "nim:eca",
-        "notif:a",
         "nsd:u",
         "ntc",
         "nvdrv",
@@ -126,11 +120,9 @@
                 "svcGetThreadContext3": "0x33",
                 "svcWaitForAddress": "0x34",
                 "svcSignalToAddress": "0x35",
-                "svcSynchronizePreemptionState": "0x36",
+                "svcInvalidateProcessDataCache": "0x5d",
                 "svcFlushProcessDataCache": "0x5f",
-                "svcSetProcessMemoryPermission": "0x73",
-                "svcMapProcessMemory": "0x74",
-                "svcMapProcessCodeMemory": "0x77"
+                "svcMapProcessMemory": "0x74"
             }
         },
         {
@@ -139,7 +131,7 @@
         },
         {
             "type": "min_kernel_version",
-            "value": "0x0091"
+            "value": "0x0060"
         },
         {
             "type": "handle_table_size",

@@ -1,8 +1,0 @@
-@smo:100,101,110,120
-
-_ZN2al11getTransPtrEPNS_9LiveActorE
-_ZN2al8getTransEPKNS_9LiveActorE
-
-@smo:130
-_ZN2al11getTransPtrEPNS_9LiveActorE = 0x0066d810
-_ZN2al8getTransEPKNS_9LiveActorE = 0x0x0066d810 // lol !!!!!!!!!

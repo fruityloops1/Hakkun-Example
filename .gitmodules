@@ -1,6 +1,3 @@
 [submodule "sys"]
 	path = sys
 	url = https://github.com/fruityloops1/LibHakkun
-[submodule "lib/OdysseyHeaders"]
-	path = lib/OdysseyHeaders
-	url = https://github.com/MonsterDruide1/OdysseyHeaders
