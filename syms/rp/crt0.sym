@@ -2,4 +2,8 @@
 
 nninitRegion = 0x00000024
 nninitLocale = 0x00000190
-__ctr_start_hook_continue = 0x00000008
+nninitSystem = 0x0019347c
+__cpp_initialize__aeabi_ = 0x002a0da4
+nninitCallStaticInitializers = 0x0000015c
+nninitSetup = 0x000001dc
+nnMain_ = 0x00000108
