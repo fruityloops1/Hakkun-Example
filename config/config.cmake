@@ -1,4 +1,4 @@
-set(LINKFLAGS -nodefaultlibs)
+set(LINKFLAGS -nodefaultlibs -Wl,--export-dynamic-symbol=nninitStartup -Wl,--export-dynamic-symbol=nnMain)
 set(LLDFLAGS --no-demangle --gc-sections)
 
 set(OPTIMIZE_OPTIONS_DEBUG -O2 -gdwarf-4)

@@ -1,0 +1,5 @@
+@rp:100
+
+nninitRegion = 0x00000024
+nninitLocale = 0x00000190
+__ctr_start_hook_continue = 0x00000008
