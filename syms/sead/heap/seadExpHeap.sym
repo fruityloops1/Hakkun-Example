@@ -1,7 +1,0 @@
-@smo:100,101,110,120
-
-_ZN4sead7ExpHeap6createEmRKNS_14SafeStringBaseIcEEPNS_4HeapEiNS5_13HeapDirectionEb
-
-@smo:130
-
-_ZN4sead7ExpHeap6createEmRKNS_14SafeStringBaseIcEEPNS_4HeapEiNS5_13HeapDirectionEb = 0x00951150
