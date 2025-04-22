@@ -6,6 +6,7 @@ set(OPTIMIZE_OPTIONS_RELEASE -O3 -ffast-math -flto)
 set(WARN_OPTIONS -Werror=return-type -Wno-invalid-offsetof)
 
 set(INCLUDES include include/agl)
+set(DEFINITIONS IMGUI_DISABLE_TTY_FUNCTIONS IMGUI_DISABLE_FILE_FUNCTIONS)
 
 set(ASM_OPTIONS "")
 set(C_OPTIONS -ffunction-sections -fdata-sections)
